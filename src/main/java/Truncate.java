@@ -23,11 +23,11 @@ public class Truncate {
      *      |'Imagine'          |'Beatles'              |
      *      |'Kashmir'          |'Led Zeppelin'         |
      */
-    public void problem2(){
+    public void problem1(){
         /**
          * problem2: remove all the records from the table "song". Please refer to the README.MD for where to place your code. 
          */
-        String sql = FileUtil.parseSQLFile("problem2.sql");
+        String sql = FileUtil.parseSQLFile("problem1.sql");
 
 
 
@@ -37,7 +37,7 @@ public class Truncate {
             s.executeUpdate(sql);
 
         } catch (SQLException e) {
-            System.out.println("problem2: " + e.getMessage() + '\n');
+            System.out.println("problem1: " + e.getMessage() + '\n');
         }
     }
 }

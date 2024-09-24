@@ -16,8 +16,8 @@ public class TruncateTest {
 
 
     @Test
-    public void problem2Test(){
-        truncate.problem2();
+    public void problem1Test(){
+        truncate.problem1();
 
         //Write SQL statement here
         String sql = "SELECT * FROM song;";
@@ -35,7 +35,7 @@ public class TruncateTest {
             }
 
         } catch (SQLException e) {
-            System.out.println("problem2: " + e.getMessage() + '\n');
+            System.out.println("problem1: " + e.getMessage() + '\n');
             Assert.fail();
         }
         Assert.assertEquals(0, counter);
