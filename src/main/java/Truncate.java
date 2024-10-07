@@ -25,7 +25,7 @@ public class Truncate {
      */
     public void problem1(){
         /**
-         * problem2: remove all the records from the table "song". Please refer to the README.MD for where to place your code. 
+         * problem1: remove all the records from the table "song". Please refer to the README.MD for where to place your code. 
          */
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
