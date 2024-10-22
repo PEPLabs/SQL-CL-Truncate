@@ -25,4 +25,4 @@ Song Table Diagram:
 |'Imagine'          |'Beatles'              |
 |'Kashmir'          |'Led Zeppelin'         |
 
-#### Problem : in the problem2.sql file, remove all the records from the table "song"
+#### In the problem1.sql file, remove all the records from the table "song"
